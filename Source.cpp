@@ -2,7 +2,6 @@
 #include "Book.h"
 int main() 
 {
-    system("color F0");
     setlocale(LC_ALL, "Russian");
     Book book("Book.txt");
     book.Run();
